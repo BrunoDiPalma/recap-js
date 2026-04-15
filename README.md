@@ -24,7 +24,7 @@ O objetivo foi praticar manipulação do DOM, eventos e uso do LocalStorage para
 ---
 
 ## 📷 Demonstração
-
+<img width="1162" height="843" alt="e739b992-46bf-4415-b0dd-455e89b511e2" src="https://github.com/user-attachments/assets/6b0a78c6-c964-4055-9f63-c4974ec61b07" />
 ---
 
 ## 💡 Possíveis melhorias futuras
