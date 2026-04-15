@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #b03636, #954242);
+}
+
+#container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  max-width: 540px;
+  background: white;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+#addBtn {
+  border-radius: 20px;
+  background-color: rgb(0, 175, 0);
+  color: white;
+  padding: 10px;
+  width: 90px;
+  outline: none;
+}
+
+#addBtn:hover {
+  color: white;
+  background-color: rgb(0, 87, 0);
+  cursor: pointer;
+}
+
+#formList {
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#input-box {
+  background-color: rgba(221, 221, 221, 0.563);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+
+#tasklist {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 12px 8px 12px 30px;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.delete-btn {
+  background-color: white;
+  float: right;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.check-btn {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  float: right;
+}
+
+.check-btn:hover {
+  background-color: #3e8e41;
+}
